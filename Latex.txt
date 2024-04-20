@@ -67,56 +67,63 @@
 \begin{document}
 
 % -------------------- HEADING--------------------
+    
+\vspace*{-6pt}
 
-\vspace*{-6pt} % Increase vertical space before heading
 
 \begin{center}
     \textbf{\Huge \scshape Dhiraj Karangale} \\ \vspace{4pt}
     \small 
-    \faIcon{github}
-    \href{https://github.com/DhirajKarangale}{\underline{github.com/DhirajKarangale}} $  $
-    \faIcon{code}
-    \href{https://dksoftware.netlify.app/}
-    {\underline{Portfolio}} $  $
-    \faIcon{linkedin}
-    \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{linkedin.com/in/dhiraj-karangale}} $  $
-    \break
+    {\underline{+91 7620320595}} \quad
     \faIcon{envelope}
     \href{mailto:dakarangale02@gmail.com}
-    {\underline{dakarangale02@gmail.com}} $  $
-     {\underline{+91 7620320595}}
+    {\underline{dakarangale02@gmail.com}} \quad
+    \faIcon{github}
+    \href{https://github.com/DhirajKarangale}{\underline{github.com/DhirajKarangale}} \quad
+    \faIcon{linkedin}
+    \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{linkedin.com/in/dhiraj-karangale}}
 \end{center}
 
-\vspace{-15pt} % Reduce vertical space after heading
+\begin{flushright}
+    \vspace{-5pt}
+    \faIcon{code}
+    \href{https://dksoftware.netlify.app/}
+    {\underline{Portfolio}}
+\end{flushright}
+
+\vspace{-15pt}
 
 % -------------------- EDUCATION --------------------
 \section{Education}
-  \resumeSubHeadingListStart
-  
-    \resumeSubheading
-      {Savtribai Phule Pune University}{June 2024}
-      {Bachelor of Engineering in Computer Engineering}{Current GPA: 8.09/10.0}
+\resumeSubHeadingListStart
+\vspace{2pt}
+\resumeSubheading
+{Savtribai Phule Pune University}{June 2024}
+{Bachelor of Engineering in Computer Engineering}{Current GPA: 8.09/10.0}      
+\resumeSubHeadingListEnd
 
-      \resumeSubheading
-      {Saraswati Vidya Mandir}{June 2018}
-      {SSC State Board of Maharashta}{Precent: 81.60/100}
-      
+% -------------------- Summary --------------------
+\section{Personal Summary}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    
+    \vspace{4pt}\textbf{Software Developer \textbar{} App Developer \textbar{} Game Developer} 
 
-    \vspace{-5pt} % Reduce vertical space after education section
-    \subsection{Relevant Coursework}
-      \textbf{About:} Results-driven Developer with \textbf{3}+ years of expertise in \textbf{C\#, Unity, and C++}. Experience in app development with Java and Android Studio, with a keen understanding of \textbf{data structures} and \textbf{algorithms}. Completed \textbf{25}+ projects showcasing a diverse range of skills and abilities. Currently expanding skills in Spring Technologies. Recognized for \textbf{leadership}, \textbf{product management}, and fast, efficient delivery.
-       \vspace{4pt}\textbf{\break Achievements:} 2 App with 10k+ download on Playstore.
-
-  \resumeSubHeadingListEnd
+    \vspace{1pt} {\fontsize{11}{13}\selectfont Results-driven Developer with \textbf{3}+ years of expertise in \textbf{C\#, Unity, and C++}. Proficient in \textbf{Java} and Android Studio for app development, with a strong grasp of \textbf{data structures} and \textbf{algorithms}. Successfully finished over \textbf{25}+ projects showcasing a diverse range of skills and abilities. Currently expanding skills in Spring Technologies. Recognized for leadership and fast, efficient delivery.}
+    
+    \vspace{-15pt}\textbf{\break Achievements:} 2 Apps with \textbf{10k}+ download on Playstore.
+    
+    }}
+ \end{itemize}
 
 % -------------------- SKILLS --------------------
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-    
+    \vspace{2pt}
      \textbf{Languages}{: C/C++, C\#, Java, (Basic) Python} \\
      
-     \textbf{Tools}{: Unity, Photon, Mirror, AndroidStudio, ReactJS, Spring, Spring Boot, Nodejs, Git, Github, Gitlab, Figma}
+     \textbf{Tools}{: Unity, Photon, Mirror, Android Studio, ReactJS, Spring, Spring Boot, Nodejs, Git, Github, Gitlab, Figma}
     }}
  \end{itemize}
 
