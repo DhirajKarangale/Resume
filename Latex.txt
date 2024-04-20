@@ -87,7 +87,7 @@
      {\underline{+91 7620320595}}
 \end{center}
 
-\vspace{-6pt} % Reduce vertical space after heading
+\vspace{-15pt} % Reduce vertical space after heading
 
 % -------------------- EDUCATION --------------------
 \section{Education}
@@ -102,10 +102,10 @@
       {SSC State Board of Maharashta}{Precent: 81.60/100}
       
 
-    \vspace{-10pt} % Reduce vertical space after education section
+    \vspace{-5pt} % Reduce vertical space after education section
     \subsection{Relevant Coursework}
-      \textbf{About:} Results-driven Developer with 3+ years of expertise in C\#, Unity, and C++. Experience in app development with Java and Android Studio, with a keen understanding of data structures and algorithms. Completed 25+ projects showcasing a diverse range of skills and abilities. Currently expanding skills in Spring Technologies. Recognized for leadership, product management, and fast, efficient delivery.
-      \textbf{\break Achievements:} 2 App with 10k+ download on Playstore.
+      \textbf{About:} Results-driven Developer with \textbf{3}+ years of expertise in \textbf{C\#, Unity, and C++}. Experience in app development with Java and Android Studio, with a keen understanding of \textbf{data structures} and \textbf{algorithms}. Completed \textbf{25}+ projects showcasing a diverse range of skills and abilities. Currently expanding skills in Spring Technologies. Recognized for \textbf{leadership}, \textbf{product management}, and fast, efficient delivery.
+       \vspace{4pt}\textbf{\break Achievements:} 2 App with 10k+ download on Playstore.
 
   \resumeSubHeadingListEnd
 
@@ -130,7 +130,7 @@
         
         \resumeProjectHeading
           {\textbf{Godspeed Games} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{February 2023 -- September 2023}
-          {\small{Worked on carscan cross-platform AR app, Completed 3D open world game for XBOX}}
+          {\small{Developed a cross-platform AR app Carscan, worked payment gateways for seamless transactions. Also contributed to the development and debugging of the Xbox game Guns\&Spurs 2, ensuring smooth gameplay by resolving various bugs.}}
 
         \resumeProjectHeading
           {\textbf{Time to School}\vspace{8pt} $|$ \footnotesize\emph{Programmer Intern}}{July 2022 -- February 2023}
@@ -153,7 +153,7 @@
     \resumeSubHeadingListStart
 
         \resumeProjectHeading
-        {\textbf{shopARound} $|$ \footnotesize\emph{Unity, Android,  C\#, Photon, AR, Git, VSCode}}{July 2023}
+        {\textbf{shopARound} $|$ \footnotesize\emph{Unity, Android,  C\#, Photon, Photon Voice, AR, Git, VSCode}}{July 2023}
         \resumeItemListStart
             \resumeItem{Innovative app merging virtual and physical shopping via Metaverse and AR.}
             \resumeItem{App helps customer to take advantage of shopping remotely also helps business to increase their customer base.}
@@ -175,7 +175,7 @@
         \resumeItemListEnd
                   
         \resumeProjectHeading
-        {\textbf{Jungali Jumper 3D} $|$ \footnotesize\emph{Unity, C\#, Android, Microsoft Azure, Facebook, Git, JSON}}{April 2022}
+        {\textbf{Jungali Jumper 3D} $|$ \footnotesize\emph{Unity, C\#, Android, Microsoft Azure, Facebook, Git, JSON}}{April 2024}
         \resumeItemListStart
             \resumeItem{3D Open World rogulike survival game with procedurally generated word.}
             \resumeItem{Featured with Azure database, Facebook Authentication and leaderbaord with Facebook friends}
