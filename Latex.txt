@@ -68,7 +68,7 @@
 
 % -------------------- HEADING--------------------
 
-\vspace{-10pt} % Reduce vertical space before heading
+\vspace*{-6pt} % Increase vertical space before heading
 
 \begin{center}
     \textbf{\Huge \scshape Dhiraj Karangale} \\ \vspace{4pt}
@@ -83,7 +83,7 @@
     \break
     \faIcon{envelope}
     \href{mailto:dakarangale02@gmail.com}
-    {\underline{dakarangale02@gmail.com}}
+    {\underline{dakarangale02@gmail.com}} $  $
      {\underline{+91 7620320595}}
 \end{center}
 
@@ -116,7 +116,7 @@
     
      \textbf{Languages}{: C/C++, C\#, Java, (Basic) Python} \\
      
-     \textbf{Tools}{: Unity, Photon, Mirror, AndroidStudio, ReactJS, Node.js, Git, Github, Gitlab, Figma, Photoshop, JSON, VSCode}
+     \textbf{Tools}{: Unity, Photon, Mirror, AndroidStudio, ReactJS, Spring, Spring Boot, Nodejs, Git, Github, Gitlab, Figma}
     }}
  \end{itemize}
 
