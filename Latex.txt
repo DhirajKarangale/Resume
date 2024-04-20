@@ -116,7 +116,7 @@
     
      \textbf{Languages}{: C/C++, C\#, Java, (Basic) Python} \\
      
-     \textbf{Tools}{: Unity, Photon, Mirror, AndroidStudio, ReactJS, Node.js, Git, Github, Gitlab, Figma, Photoshop, JSON, VS Code}
+     \textbf{Tools}{: Unity, Photon, Mirror, AndroidStudio, ReactJS, Node.js, Git, Github, Gitlab, Figma, Photoshop, JSON, VSCode}
     }}
  \end{itemize}
 
@@ -138,7 +138,7 @@
 
         \resumeProjectHeading
           {\textbf{Playhobo} $|$ \footnotesize\emph{Programmer Intern}\vspace{8pt}}{March 2022 -- August 2022}
-          {\small{Developed Idle Crypto Miner game with NFTs using Microsoft Azure. Engaging gameplay, leaderboard feature with FB Friends.}}
+          {\small{Developed Idle Crypto Miner game with NFTs using Microsoft Azure. Engaging gameplay, leaderboard feature with Facebook Friends.}}
 
         \resumeProjectHeading
           {\textbf{Life of Cards} $|$ \footnotesize\emph{Programmer Intern}\vspace{8pt}}{January 2022 -- March 2022}
@@ -169,7 +169,7 @@
         \resumeProjectHeading
         {\textbf{Idle Crypto Miner} $|$ \footnotesize\emph{Unity, C\#, Android, Azure, FB Authetaction, Applovin, Git, VS Code}}{January 2023}
         \resumeItemListStart
-            \resumeItem{Developed Android game with Microsoft Azure database and Facebook integration.}
+            \resumeItem{Developed Android app with Microsoft Azure database and Facebook integration.}
             \resumeItem{Authenticated with Facebook, Leader board with Facebook friends}
             \resumeItem{10K+ downloads on google PlayStore}
         \resumeItemListEnd
@@ -178,6 +178,7 @@
         {\textbf{Jungali Jumper 3D} $|$ \footnotesize\emph{Unity, C\#, Android, Microsoft Azure, Facebook, Git, JSON}}{April 2022}
         \resumeItemListStart
             \resumeItem{3D Open World rogulike survival game with procedurally generated word.}
+            \resumeItem{Featured with Azure database, Facebook Authentication and leaderbaord with Facebook friends}
         \resumeItemListEnd
           
     \resumeSubHeadingListEnd
