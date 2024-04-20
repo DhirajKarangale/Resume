@@ -27,8 +27,9 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-1in} % Default was -.5in
-\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-0.75in} % Reduce top margin
+\addtolength{\textheight}{1.75in} % Adjust this value to control the bottom space
+\setlength{\footskip}{10pt} % Adjust this value if needed
 
 \urlstyle{same}
 
@@ -39,7 +40,7 @@
 % Section formatting
 \titleformat{\section}{
   \vspace{-5pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-9pt}]
 
 % Subsection formatting
 \titleformat{\subsection}{
@@ -50,34 +51,10 @@
 \pdfgentounicode=1
 
 % -------------------- CUSTOM COMMANDS --------------------
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
-}
-
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeSubSubheading}[2]{\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\textit{\small#1} & \textit{\small #2} \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\small#1 & #2 \end{tabular*}\vspace{-7pt}}
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -86,23 +63,15 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\setlength{\footskip}{4.08003pt}
-
 % -------------------- START OF DOCUMENT --------------------
 \begin{document}
 
 % -------------------- HEADING--------------------
-\begin{flushright}
-  \vspace{-4pt}
-  \color{gray}
-  \item
-  Last Updated on November 2nd, 2023
-\end{flushright}
 
-\vspace{-7pt}
+\vspace{-10pt} % Reduce vertical space before heading
 
 \begin{center}
-    \textbf{\Huge \scshape Dhiraj Karangale} \\ \vspace{8pt}
+    \textbf{\Huge \scshape Dhiraj Karangale} \\ \vspace{4pt}
     \small 
     \faIcon{github}
     \href{https://github.com/DhirajKarangale}{\underline{github.com/DhirajKarangale}} $  $
@@ -118,6 +87,8 @@
      {\underline{+91 7620320595}}
 \end{center}
 
+\vspace{-6pt} % Reduce vertical space after heading
+
 % -------------------- EDUCATION --------------------
 \section{Education}
   \resumeSubHeadingListStart
@@ -131,7 +102,7 @@
       {SSC State Board of Maharashta}{Precent: 81.60/100}
       
 
-    \vspace{-7pt}
+    \vspace{-10pt} % Reduce vertical space after education section
     \subsection{Relevant Coursework}
       \textbf{About:} Results-driven Developer with 3+ years of expertise in C\#, Unity, and C++. Experience in app development with Java and Android Studio, with a keen understanding of data structures and algorithms. Completed 25+ projects showcasing a diverse range of skills and abilities. Currently expanding skills in Spring Technologies. Recognized for leadership, product management, and fast, efficient delivery.
       \textbf{\break Achievements:} 2 App with 10k+ download on Playstore.
@@ -173,10 +144,6 @@
           {\textbf{Life of Cards} $|$ \footnotesize\emph{Programmer Intern}\vspace{8pt}}{January 2022 -- March 2022}
           {\small{Developed Pavan Putra Hanuman a popular 2D android game. Conducted testing and enhancements. 10k+ downloads.}}
 
-        % \resumeProjectHeading
-          % {\textbf{Finalist\textsuperscript{} \footnotesize{Technovanza VJTI Hackthon}}\vspace{8pt} $|$ \footnotesize\emph{Competitor}}{Feb. 2023 -- May 2023}
-          % {\small{Won \$50 locally competing against high school students in keeping track of the time}}
-          
     \resumeSubHeadingListEnd 
 
 
@@ -189,35 +156,28 @@
         {\textbf{shopARound} $|$ \footnotesize\emph{Unity, Android,  C\#, Photon, AR, Git, VSCode}}{July 2023}
         \resumeItemListStart
             \resumeItem{Innovative app merging virtual and physical shopping via Metaverse and AR.}
-            % \resumeItem{Created intended behavior by making logic complying to the extensive Spigot API in Java}
             \resumeItem{App helps customer to take advantage of shopping remotely also helps business to increase their customer base.}
-            % \resumeItem{Published to GitHub and spigotmc.org}
         \resumeItemListEnd
 
         \resumeProjectHeading
         {\textbf{Abacusync} $|$ \footnotesize\emph{Unity, C\#, Android, IOS, Visual Scripting,  Git, VSCode}}{February 2023}
         \resumeItemListStart
-            % \resumeItem{Created intended behavior by making logic complying to the extensive Spigot API in Java}
             \resumeItem{Cross platform Ed-tech mobile app with video lectures and games for students.}
             \resumeItem{Provides test and students progress under parent's guidence. }
-            % \resumeItem{Published to GitHub and spigotmc.org}
         \resumeItemListEnd
     
         \resumeProjectHeading
         {\textbf{Idle Crypto Miner} $|$ \footnotesize\emph{Unity, C\#, Android, Azure, FB Authetaction, Applovin, Git, VS Code}}{January 2023}
         \resumeItemListStart
-            \resumeItem{Developed Android game with Microsoft Azure database and Facebook integration. 
-}
+            \resumeItem{Developed Android game with Microsoft Azure database and Facebook integration.}
             \resumeItem{Authenticated with Facebook, Leader board with Facebook friends}
             \resumeItem{10K+ downloads on google PlayStore}
-  
         \resumeItemListEnd
                   
         \resumeProjectHeading
         {\textbf{Jungali Jumper 3D} $|$ \footnotesize\emph{Unity, C\#, Android, Microsoft Azure, Facebook, Git, JSON}}{April 2022}
         \resumeItemListStart
             \resumeItem{3D Open World rogulike survival game with procedurally generated word.}
-            \resumeItem{Featured with Azure database, Facebook Authentication and leaderbaord with Facebook friends}
         \resumeItemListEnd
           
     \resumeSubHeadingListEnd
