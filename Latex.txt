@@ -109,7 +109,7 @@
     
     \vspace{4pt}\textbf{Software Developer \textbar{} App Developer \textbar{} Game Developer} 
 
-    \vspace{1pt} {\fontsize{11}{13}\selectfont Results-driven Developer with \textbf{3}+ years of expertise in \textbf{C\#, Unity, and C++}. Proficient in \textbf{Java} and Android Studio for app development, with a strong grasp of \textbf{data structures} and \textbf{algorithms}. Successfully finished over \textbf{25}+ projects showcasing a diverse range of skills and abilities. Currently expanding skills in Spring Technologies. Recognized for leadership and fast, efficient delivery.}
+    \vspace{1pt} {\fontsize{11}{13}\selectfont Results-driven Developer with \textbf{3}+ years of expertise in \textbf{C\#, Unity, and C++}. Proficient in \textbf{Java} and Android Studio for app development, with a strong grasp of \textbf{data structures} and \textbf{algorithms}. Successfully finished over \textbf{25}+ projects showcasing a diverse range of skills and abilities, including \textbf{AR} and \textbf{VR} projects. Currently expanding skills in Spring Technologies. Recognized for leadership and fast, efficient delivery.}
     
     \vspace{-15pt}\textbf{\break Achievements:} 2 Apps with \textbf{10k}+ download on Playstore.
     
