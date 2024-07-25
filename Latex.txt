@@ -98,8 +98,8 @@
 \resumeSubHeadingListStart
 \vspace{2pt}
 \resumeSubheading
-{Savtribai Phule Pune University}{June 2024}
-{Bachelor of Engineering in Computer Engineering}{Current GPA: 8.09/10.0}      
+{Savitribai Phule Pune University}{June 2024}
+{Bachelor of Engineering in Computer Engineering}{Current GPA: 8.15/10.0}      
 \resumeSubHeadingListEnd
 
 % -------------------- Summary --------------------
@@ -111,7 +111,7 @@
 
     \vspace{1pt} {\fontsize{11}{13}\selectfont Results-driven Developer with \textbf{3}+ years of expertise in \textbf{C\#, Unity, and C++}. Proficient in \textbf{Java} and Android Studio for app development, with a strong grasp of \textbf{data structures} and \textbf{algorithms}. Successfully finished over \textbf{25}+ projects showcasing a diverse range of skills and abilities, including \textbf{AR} and \textbf{VR} projects. Currently expanding skills in Spring Technologies. Recognized for leadership and fast, efficient delivery.}
     
-    \vspace{-15pt}\textbf{\break Achievements:} 2 Apps with \textbf{10k}+ download on Playstore.
+    \vspace{-10pt}\textbf{\break Achievements:} Developed 2 apps with significant user engagement on the Play Store, one with \textbf{10k}+ downloads and the other with \textbf{100k}+ downloads.
     
     }}
  \end{itemize}
@@ -123,7 +123,7 @@
     \vspace{2pt}
      \textbf{Languages}{: C/C++, C\#, Java, (Basic) Python} \\
      
-     \textbf{Tools}{: Unity, Photon, Mirror, Android Studio, ReactJS, Spring, Spring Boot, Nodejs, Git, Github, Gitlab, Figma}
+     \textbf{Tools}{: Unity, Photon, Mirror, MLPA, Android Studio, ReactJS, Spring, Spring Boot, Nodejs, Websockets, Networking, Git, Github, Gitlab, Figma}
     }}
  \end{itemize}
 
@@ -132,19 +132,19 @@
 \section{Experience}
   \resumeSubHeadingListStart
         \resumeProjectHeading
-          {\textbf{SaralTech} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{January 2024 -- Current}
-          {\small{Working on 100x betting app. Unity project with GO backend, featuring diverse gambling games. I manage Unity development, integrating AWS S3 for storage, Websockets for real-time data from Mattermost, and various APIs for backend communication.}}
+          {\textbf{SaralTech} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{January 2024 -- June 2024}
+          {\small{Working on the 100x betting app with a GO backend, featuring diverse gambling games. I manage Unity development, integrating AWS S3 for scalable storage, Websockets for low-latency real-time data from Mattermost, and RESTful APIs for seamless backend communication. Collaborated with teams for Agile development and continuous integration.}}
         
         \resumeProjectHeading
           {\textbf{Godspeed Games} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{February 2023 -- September 2023}
           {\small{Developed a cross-platform AR app Carscan, worked payment gateways for seamless transactions. Also contributed to the development and debugging of the Xbox game Guns\&Spurs 2, ensuring smooth gameplay by resolving various bugs.}}
 
         \resumeProjectHeading
-          {\textbf{Time to School}\vspace{8pt} $|$ \footnotesize\emph{Programmer Intern}}{July 2022 -- February 2023}
+          {\textbf{Time to School}\vspace{8pt} $|$ \footnotesize\emph{Programmer Intern}}{July 2022 -- January 2023}
           \small{Created cross-platform educational apps using C\# and AWS API. Collaborated on engaging interfaces, compatibility, and gamification. Conducted thorough testing for smooth performance.}
 
         \resumeProjectHeading
-          {\textbf{Playhobo} $|$ \footnotesize\emph{Programmer Intern}\vspace{8pt}}{March 2022 -- August 2022}
+          {\textbf{Playhobo} $|$ \footnotesize\emph{Programmer Intern}\vspace{8pt}}{March 2022 -- July 2022}
           {\small{Developed Idle Crypto Miner game with NFTs using Microsoft Azure. Engaging gameplay, leaderboard feature with Facebook Friends.}}
 
         \resumeProjectHeading
