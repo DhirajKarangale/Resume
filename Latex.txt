@@ -68,7 +68,7 @@
 
 % -------------------- HEADING--------------------
     
-\vspace*{-6pt}
+\vspace*{-15pt}
 
 
 \begin{center}
@@ -78,20 +78,20 @@
     \faIcon{envelope}
     \href{mailto:dakarangale02@gmail.com}
     {\underline{dakarangale02@gmail.com}} \quad
+     \faIcon{linkedin}
+    \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{linkedin.com/in/dhiraj-karangale}}
     \faIcon{github}
     \href{https://github.com/DhirajKarangale}{\underline{github.com/DhirajKarangale}} \quad
-    \faIcon{linkedin}
-    \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{linkedin.com/in/dhiraj-karangale}}
 \end{center}
 
 \begin{flushright}
     \vspace{-5pt}
     \faIcon{code}
-    \href{https://dksoftware.netlify.app/}
+    \href{https://dhirajkarangale.netlify.app/}
     {\underline{Portfolio}}
 \end{flushright}
 
-\vspace{-15pt}
+\vspace{-20pt}
 
 % -------------------- EDUCATION --------------------
 \section{Education}
@@ -109,21 +109,27 @@
     
     \vspace{4pt}\textbf{Software Developer \textbar{} App Developer \textbar{} Game Developer} 
 
-    \vspace{1pt} {\fontsize{11}{13}\selectfont Results-driven Developer with \textbf{3}+ years of expertise in \textbf{C\#, Unity, and C++}. Proficient in \textbf{Java} and Android Studio for app development, with a strong grasp of \textbf{data structures} and \textbf{algorithms}. Successfully finished over \textbf{25}+ projects showcasing a diverse range of skills and abilities, including \textbf{AR} and \textbf{VR} projects. Currently expanding skills in Spring Technologies. Recognized for leadership and fast, efficient delivery.}
+    \vspace{1pt} {\fontsize{11}{13}\selectfont Proficient in the \textbf{MERN stack} (MongoDB, Express, React, Node.js) and \textbf{Spring Boot}, with a strong understanding of \textbf{data structures} and \textbf{algorithms}. Experienced in \textbf{Unity} for game development and proficient in \textbf{C\#, C++, and Java}. Having contributed to over \textbf{30} projects, I am focused on enhancing my skills in \textbf{Spring Technologies} and \textbf{React}, with a commitment to leadership and delivering high-quality projects on time.}
     
-    \vspace{-10pt}\textbf{\break Achievements:} Developed 2 apps with significant user engagement on the Play Store, one with \textbf{10k}+ downloads and the other with \textbf{100k}+ downloads.
+   \vspace{-10pt}\textbf{\break Achievements:}
+    \begin{itemize}\vspace{-5pt}
+    \item 2 Apps on the Play Store, with \textbf{10K}+ and \textbf{100K}+ downloads.
+    \item \textbf{HackWithInfi Finalist}.
+    \end{itemize}
     
     }}
  \end{itemize}
 
 % -------------------- SKILLS --------------------
+\vspace{-13pt}
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
     \vspace{2pt}
-     \textbf{Languages}{: C/C++, C\#, Java, (Basic) Python} \\
-     
-     \textbf{Tools}{: Unity, Photon, Mirror, MLPA, Android Studio, ReactJS, Spring, Spring Boot, Nodejs, Websockets, Networking, Git, Github, Gitlab, Figma}
+     \textbf{Languages}{: C/C++, C\#, Java, (Basic), Python, HTML, CSS, JavaScript, TypeScript} \\
+
+    \vspace{2pt}
+     \textbf{Tools}{: MongoDB, Express, React, Node, React Native, Spring Boot, GraphQL, PWA, Unity, AR, VR, Netcode, Photon, Mirror, DOTS, Android Studio, Websockets, Azure, Git, Github, Gitlab, Figma}
     }}
  \end{itemize}
 
@@ -132,24 +138,16 @@
 \section{Experience}
   \resumeSubHeadingListStart
         \resumeProjectHeading
+          {\textbf{Infosys} $|$ \footnotesize\emph{Specialist Programmer}\vspace{8pt}}{August 2024 -- Present}
+          {\small{Working on the \textbf{MERN stack} (MongoDB, Express, React, Node.js), \textbf{React Native}, and \textbf{Spring Boot} to build and optimize scalable web and mobile applications. My role involves collaborating with cross-functional teams to design, implement, and maintain high-performance solutions, ensuring timely and efficient delivery. I am continuously enhancing my skills in modern technologies while contributing to innovative and impactful projects.}}
+
+          \resumeProjectHeading
           {\textbf{SaralTech} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{January 2024 -- June 2024}
           {\small{Working on the 100x betting app with a GO backend, featuring diverse gambling games. I manage Unity development, integrating AWS S3 for scalable storage, Websockets for low-latency real-time data from Mattermost, and RESTful APIs for seamless backend communication. Collaborated with teams for Agile development and continuous integration.}}
         
         \resumeProjectHeading
           {\textbf{Godspeed Games} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{February 2023 -- September 2023}
           {\small{Developed a cross-platform AR app Carscan, worked payment gateways for seamless transactions. Also contributed to the development and debugging of the Xbox game Guns\&Spurs 2, ensuring smooth gameplay by resolving various bugs.}}
-
-        \resumeProjectHeading
-          {\textbf{Time to School}\vspace{8pt} $|$ \footnotesize\emph{Programmer Intern}}{July 2022 -- January 2023}
-          \small{Created cross-platform educational apps using C\# and AWS API. Collaborated on engaging interfaces, compatibility, and gamification. Conducted thorough testing for smooth performance.}
-
-        \resumeProjectHeading
-          {\textbf{Playhobo} $|$ \footnotesize\emph{Programmer Intern}\vspace{8pt}}{March 2022 -- July 2022}
-          {\small{Developed Idle Crypto Miner game with NFTs using Microsoft Azure. Engaging gameplay, leaderboard feature with Facebook Friends.}}
-
-        \resumeProjectHeading
-          {\textbf{Life of Cards} $|$ \footnotesize\emph{Programmer Intern}\vspace{8pt}}{January 2022 -- March 2022}
-          {\small{Developed Pavan Putra Hanuman a popular 2D android game. Conducted testing and enhancements. 10k+ downloads.}}
 
     \resumeSubHeadingListEnd 
 
@@ -161,31 +159,20 @@
 
         \resumeProjectHeading
         {\textbf{shopARound} $|$ \footnotesize\emph{Unity, Android,  C\#, Photon, Photon Voice, AR, Git, VSCode}}{July 2023}
-        \resumeItemListStart
-            \resumeItem{Innovative app merging virtual and physical shopping via Metaverse and AR.}
-            \resumeItem{App helps customer to take advantage of shopping remotely also helps business to increase their customer base.}
+        \resumeItemListStart \vspace{4pt}
+            An AR-based shopping app developed with Unity, C\#, Photon, and Photon Voice. It merges virtual and physical shopping through the Metaverse, allowing remote shopping for users and helping businesses expand their reach.
         \resumeItemListEnd
 
         \resumeProjectHeading
-        {\textbf{Abacusync} $|$ \footnotesize\emph{Unity, C\#, Android, IOS, Visual Scripting,  Git, VSCode}}{February 2023}
-        \resumeItemListStart
-            \resumeItem{Cross platform Ed-tech mobile app with video lectures and games for students.}
-            \resumeItem{Provides test and students progress under parent's guidence. }
+        {\textbf{JJ3D} $|$ \footnotesize\emph{Unity, DOTS, C\#, Express, MongoDB, JWT, JavaScript, Websocket, Netcode, Microsoft Azure}}{April 2024}
+        \resumeItemListStart \vspace{4pt}
+            Developing a multiplayer roguelike survival game featuring procedural world generation and game modes like Battle Royale, Survival, and Team Death Match. Using Unity with DOTS for high performance and multithreading, Node.js and Express for backend services, and MongoDB for data storage.
         \resumeItemListEnd
-    
-        \resumeProjectHeading
-        {\textbf{Idle Crypto Miner} $|$ \footnotesize\emph{Unity, C\#, Android, Azure, FB Authetaction, Applovin, Git, VS Code}}{January 2023}
-        \resumeItemListStart
-            \resumeItem{Developed Android app with Microsoft Azure database and Facebook integration.}
-            \resumeItem{Authenticated with Facebook, Leader board with Facebook friends}
-            \resumeItem{10K+ downloads on google PlayStore}
-        \resumeItemListEnd
-                  
-        \resumeProjectHeading
-        {\textbf{Jungali Jumper 3D} $|$ \footnotesize\emph{Unity, C\#, Android, Microsoft Azure, Facebook, Git, JSON}}{April 2024}
-        \resumeItemListStart
-            \resumeItem{3D Open World rogulike survival game with procedurally generated word.}
-            \resumeItem{Featured with Azure database, Facebook Authentication and leaderbaord with Facebook friends}
+
+         \resumeProjectHeading
+        {\textbf{Wealthwise} $|$ \footnotesize\emph{MongoDB, Express, React, Node Js, JWT, Charts.js, Graph.js, PDFMake, ExcelJS}}{July 2023}
+        \resumeItemListStart \vspace{4pt}
+            An expense tracking app built with the MERN stack. It offers interactive charts, PDF/Excel report downloads, financial goal tracking, and personalized insights based on salary and savings. Users can manage their profiles for a customized experience.
         \resumeItemListEnd
           
     \resumeSubHeadingListEnd

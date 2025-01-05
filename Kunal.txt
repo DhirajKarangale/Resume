@@ -91,8 +91,8 @@
 \resumeSubHeadingListStart
 \vspace{2pt}
 \resumeSubheading
-{Savitribai Phule Pune University}{June 2024}
-{Bachelor of Engineering in Information Technology}{Current GPA: 7.90/10.0}  
+{Sinhgad College Of Engineering, Pune}{June 2024}
+{Bachelor of Engineering in Information Technology}{Current GPA: 7.86/10.0}  
 
 \vspace{2pt}
 \resumeSubheading
@@ -110,7 +110,7 @@
 \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
     
-    \vspace{4pt}\textbf{GO Developer \textbar{} Software Developer} 
+    \vspace{4pt}\textbf{GO Developer \textbar{} Web Developer} 
 
     \vspace{1pt} {\fontsize{11}{13}\selectfont I completed my Bachelor's degree in Information Technology at SCOE Pune. I started my coding journey with C/C++ and have a strong interest in backend development. I am actively working on various projects and have a good command of Data Structures and Algorithms (DSA). Currently, I am expanding my skills in backend technologies with expertise in the Go language. I have successfully finished projects showcasing a diverse range of skills and abilities, and I am recognized for my leadership and fast, efficient delivery. I also have knowledge of Object-Oriented Programming (OOP).}
    
@@ -133,7 +133,7 @@
 \section{Experience}
   \resumeSubHeadingListStart
         \resumeProjectHeading
-          {\textbf{Sync Interns } $|$ \footnotesize\emph{Web Developer Intern}\vspace{8pt}}{Feb, 2023 - Mar,2023}
+          {\textbf{Cascode } $|$ \footnotesize\emph{Web Developer Intern}\vspace{8pt}}{Feb, 2023 - Mar,2023}
           {\small{I developed responsive and visually appealing user interfaces using HTML, CSS, JavaScript, and React.js in collaboration with design and backend teams. This enabled me to create dynamic and engaging user experiences that effectively met end-user needs. In my work on the frontend, I focused on ensuring intuitive design and smooth interactions. One notable project demonstrates my ability to seamlessly integrate front-end and back-end functionalities. My collaborative approach ensured cohesive and high-performing applications, enhancing my technical skills and teamwork abilities.}}
         
         \resumeProjectHeading
@@ -165,7 +165,7 @@
         \resumeItemListEnd
     
         \resumeProjectHeading
-        {\textbf{shopARound} $|$ \footnotesize\emph{Unity, Android, C\#, Photon, Photon Voice, AR, Git, VSCode}}{}
+        {\textbf{ShopVerse} $|$ \footnotesize\emph{Unity, Android, C\#, Photon, Photon Voice, AR, Git, VSCode}}{}
         \resumeItemListStart
             \resumeItem{Innovative app merging virtual and physical shopping via Metaverse and AR.}
             \resumeItem{App helps customer to take advantage of shopping remotely also helps business to increase their customer base.}
