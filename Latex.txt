@@ -109,11 +109,11 @@
     
     \vspace{4pt}\textbf{Software Developer \textbar{} App Developer \textbar{} Game Developer} 
 
-    \vspace{1pt} {\fontsize{11}{13}\selectfont Proficient in the \textbf{MERN stack} (MongoDB, Express, React, Node.js) and \textbf{Spring Boot}, with a strong understanding of \textbf{data structures} and \textbf{algorithms}. Experienced in \textbf{Unity} for game development and proficient in \textbf{C\#, C++, and Java}. Having contributed to over \textbf{30} projects, I am focused on enhancing my skills in \textbf{Spring Technologies} and \textbf{React}, with a commitment to leadership and delivering high-quality projects on time.}
+    \vspace{1pt} {\fontsize{11}{13}\selectfont Proficient in the \textbf{MERN stack} (MongoDB, Express, React, Node.js) and \textbf{Spring Boot}, with a strong understanding of \textbf{data structures} and \textbf{algorithms}. Experienced in \textbf{Unity} for game development and proficient in \textbf{C\#, C++, and Java}. Having contributed to over \textbf{20} projects, I am focused on enhancing my skills in \textbf{Spring Technologies} and \textbf{React}, with a commitment to leadership and delivering high-quality projects on time.}
     
    \vspace{-10pt}\textbf{\break Achievements:}
     \begin{itemize}\vspace{-5pt}
-    \item 2 Apps on the Play Store, with \textbf{10K}+ and \textbf{100K}+ downloads.
+    \item 2 Apps on the Play Store, with \href{https://play.google.com/store/apps/details?id=com.playhobo.idlecryptominer}{\underline{\textbf{10K}+}} and \href{https://play.google.com/store/apps/details?id=com.blackwonder3d.thunderworld}{\underline{\textbf{100K}+}} downloads.
     \item \textbf{HackWithInfi Finalist}.
     \end{itemize}
     
@@ -139,15 +139,15 @@
   \resumeSubHeadingListStart
         \resumeProjectHeading
           {\textbf{Infosys} $|$ \footnotesize\emph{Specialist Programmer}\vspace{8pt}}{August 2024 -- Present}
-          {\small{Working on the \textbf{MERN stack} (MongoDB, Express, React, Node.js), \textbf{React Native}, and \textbf{Spring Boot} to build and optimize scalable web and mobile applications. My role involves collaborating with cross-functional teams to design, implement, and maintain high-performance solutions, ensuring timely and efficient delivery. I am continuously enhancing my skills in modern technologies while contributing to innovative and impactful projects.}}
+          {\small{I am gaining hands-on experience in \textbf{MERN} stack, \textbf{React Native}, and \textbf{Spring Boot}, focusing on scalable web and mobile applications. I have worked on an Expense Tracker App and explored \textbf{PWA} development, \textbf{gRPC} with Spring Boot, React Native \textbf{deep linking}, accessibility, WebView video optimization, and \textbf{SSL Pinning}.}}
 
           \resumeProjectHeading
           {\textbf{SaralTech} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{January 2024 -- June 2024}
-          {\small{Working on the 100x betting app with a GO backend, featuring diverse gambling games. I manage Unity development, integrating AWS S3 for scalable storage, Websockets for low-latency real-time data from Mattermost, and RESTful APIs for seamless backend communication. Collaborated with teams for Agile development and continuous integration.}}
+          {\small{Worked on Unity-based RMG applications, leveraging \textbf{AWS}, \textbf{WebSockets}, and API integrations for performance and scalability. Developed C\# backend integrated with Go, implemented \textbf{Unity Addressables} with \textbf{AWS S3} for asset management, and handled real-time data with \textbf{WebSockets} and \textbf{Mattermost}.}}
         
         \resumeProjectHeading
           {\textbf{Godspeed Games} $|$ \footnotesize\emph{Jr. Programmer}\vspace{8pt}}{February 2023 -- September 2023}
-          {\small{Developed a cross-platform AR app Carscan, worked payment gateways for seamless transactions. Also contributed to the development and debugging of the Xbox game Guns\&Spurs 2, ensuring smooth gameplay by resolving various bugs.}}
+          {\small{Contributed to Guns\&Spurs 2 for Xbox One/Series S, focusing on performance optimization, bug fixing, and API integration. Developed CarScan \textbf{AR} for Android/iOS, enhancing UI design, API integration, and performance optimization using \textbf{Firebase} and \textbf{notifications}.}}
 
     \resumeSubHeadingListEnd 
 
