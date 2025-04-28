@@ -74,13 +74,13 @@
 \begin{center}
     \textbf{\Huge \scshape Dhiraj Karangale} \\ \vspace{4pt}
     \small 
-    {\underline{+91 7620320595}} \quad
+    {\underline{+91 7620320595}} \hspace{1pt}
     \faIcon{envelope}
     \href{mailto:dakarangale02@gmail.com}
-    {\underline{dakarangale02@gmail.com}} \quad
+    {\underline{dakarangale02@gmail.com}} \hspace{1pt}
      \faIcon{linkedin}
-    \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{dhiraj-karangale}} \quad
-    \faIcon{github} \href{https://github.com/DhirajKarangale}{\underline{DhirajKarangale}} \quad
+    \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{linkedin/dhiraj-karangale}} \hspace{1pt}
+    \faIcon{github} \href{https://github.com/DhirajKarangale}{\underline{github/DhirajKarangale}} \hspace{1pt}
     \faIcon{code} \href{https://dhirajkarangale.netlify.app/} {\underline{Portfolio}}
 \end{center}
 
@@ -131,7 +131,7 @@
   \resumeSubHeadingListStart
         \resumeProjectHeading
           {\textbf{Infosys} $|$ \footnotesize\emph{Specialist Programmer}\vspace{8pt}}{August 2024 -- Present}
-          {\small{Hands-on experience with \textbf{MERN stack}, \textbf{Spring Boot microservices}, \textbf{React Native}, and \textbf{React.js} for scalable web and mobile applications. Expertise in \textbf{PWA} development, \textbf{gRPC}, and \textbf{JWT authentication}. Built secure \textbf{RESTful APIs}, integrated \textbf{PostgreSQL}, and applied \textbf{Spring Security}. Optimized frontend with \textbf{Redux Toolkit}, \textbf{React Query}, \textbf{code-splitting}, and styled with \textbf{Material UI}, \textbf{TailwindCSS}, and \textbf{CSS-in-JS}. Enhanced app security with \textbf{SSL Pinning} and \textbf{deep linking}, and improved performance with \textbf {cache mechanisms} (Redis, Memcached). Implemented \textbf{API rate limiting}, third-party \textbf{API integrations}, and \textbf{accessibility} improvements.}}
+          {\small{Hands-on experience with \textbf{MERN stack}, \textbf{Spring Boot microservices}, \textbf{React Native}, and \textbf{React.js} for scalable web and mobile applications. Expertise in \textbf{PWA} development, \textbf{gRPC}, and \textbf{JWT authentication}. Built secure \textbf{RESTful APIs} with \textbf{PostgreSQL} integration, and applied \textbf{Spring Security}. Optimized frontend with \textbf{Redux Toolkit}, \textbf{React Query}, \textbf{code-splitting}, and styled with \textbf{Material UI}, \textbf{TailwindCSS}, and \textbf{CSS-in-JS}. Enhanced app security with \textbf{SSL Pinning} and \textbf{deep linking}, and improved performance with \textbf {cache mechanisms} (Redis, Memcached). Implemented \textbf{API rate limiting}, third-party \textbf{API integrations}, and \textbf{accessibility} improvements.}}
 
         \vspace{-5pt}
         \resumeProjectHeading
