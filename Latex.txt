@@ -121,7 +121,7 @@
      \textbf{Languages}{: C/C++, C\#, Java, Python (Basic), HTML, CSS, JavaScript (JS), TypeScript (TS)} \\
 
     \vspace{2pt}
-     \textbf{Tools}{: MongoDB, Express, React, Node, React Native, Spring Boot, SQL, Postgresql, GraphQL, PWA, Bootstrap, Unity, AR, VR, Netcode, Photon, Mirror, DOTS, Android Studio, Websockets, Azure, Git, Github, Gitlab, Figma}
+     \textbf{Tools}{: MongoDB, Express, React, Node, React Native, Spring Boot, SQL, Postgresql, GraphQL, PWA, Bootstrap, AdMob, AppLovin, Facebook Audience Network (FAN), Ad mediation, ironSource, UnityAds, Unity, AR, VR, Netcode, Photon, Mirror, DOTS, Android Studio, Websockets, Azure, Git, Github, Gitlab, Figma}
     }}
  \end{itemize}
 
@@ -151,7 +151,7 @@
     \resumeSubHeadingListStart
 
         \resumeProjectHeading
-        {\textbf{Consent Management} $|$ \footnotesize\emph{Spring Boot, ReactJS, PostgreSQL, JWT, REST APIs, Vercel, Render, Supabase}}{April 2025}
+        {\textbf{Consent Management} $|$ \footnotesize\emph{Spring Boot, ReactJS, PostgreSQL, REST APIs, Java, SQL}}{April 2025}
         \resumeItemListStart \vspace{4pt}
             Developed a full-stack Consent Management System compliant with India's DPDP Act, 2023. Implemented features for different roles:  
             \textbf{Data Principal (User)}: Manages personal data, providing consent and requests for access, correction, and deletion.  
