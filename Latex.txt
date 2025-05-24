@@ -150,19 +150,15 @@
 \section{Projects}
     \resumeSubHeadingListStart
 
-        \resumeProjectHeading
-        {\textbf{Consent Management} $|$ \footnotesize\emph{Spring Boot, ReactJS, PostgreSQL, REST APIs, Java, SQL}}{April 2025}
+         \resumeProjectHeading
+        {\textbf{JJ3D} $|$ \footnotesize\emph{Unity, DOTS, C\#, Express, MongoDB, JWT, JavaScript, Websocket, Netcode, Microsoft Azure}}{April 2024}
         \resumeItemListStart \vspace{4pt}
-            Developed a full-stack Consent Management System compliant with India's DPDP Act, 2023. Implemented features for different roles:  
-            \textbf{Data Principal (User)}: Manages personal data, providing consent and requests for access, correction, and deletion.  
-            \textbf{Data Fiduciary (Company/App)}: Collects and processes data, ensuring usage as per user consent, and implements data security.  
-            \textbf{Consent Manager}: A central system to manage consents across multiple platforms.  
-            \textbf{Data Protection Board}: Government body ensuring compliance, handling breach reports, and conducting investigations.  
+            Developing a multiplayer roguelike survival game featuring procedural world generation and game modes like Battle Royale, Survival, and Team Death Match. Using Unity with DOTS for high performance and multithreading, Node.js and Express for backend services, and MongoDB for data storage.
         \resumeItemListEnd
 
         \vspace{-7pt}
         \resumeProjectHeading
-        {\textbf{Wealthwise} $|$ \footnotesize\emph{MongoDB, Express, React, Node Js, JWT, Charts.js, Graph.js, PDFMake, ExcelJS}}{July 2023}
+        {\textbf{Wealthwise} $|$ \footnotesize\emph{MongoDB, Express, React, Node Js, JWT, Charts.js, Graph.js, PDFMake, ExcelJS}}{September 2024}
         \resumeItemListStart \vspace{4pt}
             An expense tracking app built using the MERN stack. Features include interactive charts, PDF/Excel report downloads, financial goal tracking, and personalized insights based on income and savings. Users can manage their profiles for a tailored experience, making it easier to visualize and optimize their financial health.
         \resumeItemListEnd
