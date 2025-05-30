@@ -67,7 +67,7 @@
 % --- SUMMARY ---
 \section{Personal Summary}
 \begin{itemize}
-  \item[] Full Stack Developer with 1 years of experience specializing in the MERN stack (MongoDB, Express.js, React, Node.js). Proficient in modern React (Hooks, Redux Toolkit, React Query), backend development with Node.js, and secure authentication using JWT. Skilled in building responsive UI/UX, optimizing performance, and delivering scalable end-to-end products. Published 2 apps on PlayStore with over 100K+ downloads. HackWithInfy Finalist passionate about creating impactful, user-centric solutions.
+  \item[] Full Stack Developer with 1 year of experience specializing in the MERN stack (MongoDB, Express.js, React, Node.js). Proficient in modern React (Hooks, Redux Toolkit, React Query), backend development with Node.js, and secure authentication using JWT. Skilled in building responsive UI/UX, optimizing performance, and delivering scalable end-to-end products. Contributed to apps with 160K+ downloads on the Play Store. HackWithInfy Finalist passionate about creating impactful, user-centric solutions.
 \end{itemize}
 
 % --- Skills ---
@@ -77,7 +77,7 @@
     \item[]
     {\textbf{Frontend:} React, Redux Toolkit, React Query, Bootstrap, Tailwind CSS, Material UI, JavaScript (ES6+), TypeScript, HTML, CSS}
     
-    {\textbf{Backend:} Node.js, Express.js, MongoDB, PostgreSQL, REST APIs, WebSockets, JWT, gRPC}
+    {\textbf{Backend:} Node.js, Express.js, MongoDB, PostgreSQL, REST APIs, WebSockets, JWT, gRPC, Java}
     
     {\textbf{Tools \& Platforms:} Git, GitHub, Netlify, Docker (basic), Postman, Azure (basic), Agile/Scrum}
 \end{itemize}
