@@ -67,7 +67,7 @@
 % --- SUMMARY ---
 \section{Personal Summary}
 \begin{itemize}
-  \item[] Full Stack Developer with 1 year of experience specializing in the MERN stack (MongoDB, Express.js, React, Node.js). Proficient in modern React (Hooks, Redux Toolkit, React Query), backend development with Node.js, and secure authentication using JWT. Skilled in building responsive UI/UX, optimizing performance, and delivering scalable end-to-end products. Contributed to apps with 160K+ downloads on the Play Store. HackWithInfy Finalist passionate about creating impactful, user-centric solutions.
+  \item[] Full Stack Developer with 1 year of experience specializing in the MERN stack. Proficient in modern React (Hooks, Redux Toolkit), backend development with Node.js, and secure authentication using JWT. Experienced in both NoSQL and relational databases, including PostgreSQL, with a strong focus on data modeling and API security. Skilled in building responsive UI/UX, optimizing performance, and delivering scalable end-to-end products.  Contributed to apps with 160K+ downloads on the Play Store. HackWithInfy Finalist passionate about creating impactful, user-centric solutions.
 \end{itemize}
 
 % --- Skills ---
@@ -75,11 +75,11 @@
 \section{Skills}
 \begin{itemize}
     \item[]
-    {\textbf{Frontend:} React, Redux Toolkit, React Query, Bootstrap, Tailwind CSS, Material UI, JavaScript (ES6+), TypeScript, HTML, CSS}
+    {\textbf{Frontend:} React, Redux Toolkit,  Bootstrap, Tailwind CSS, Framer Motion, Reactbits, JavaScript (ES6+), TypeScript, HTML, CSS}
     
     {\textbf{Backend:} Node.js, Express.js, MongoDB, PostgreSQL, REST APIs, WebSockets, JWT, Java, Spring Boot}
     
-    {\textbf{Tools \& Platforms:} Git, GitHub, Netlify, Docker (basic), Postman, Azure (basic), Agile/Scrum}
+    {\textbf{Tools \& Platforms:} Git, GitHub, Cloudinary, Netlify, Vercel, Render, Neon, Postman, Agile/Scrum}
 \end{itemize}
 
 
@@ -87,23 +87,22 @@
 \section{Experience}
 \resumeSubHeadingListStart
 
-    \resumeProjectHeading
+\resumeProjectHeading
 {Infosys $|$ \footnotesize\emph{Specialist Programmer}}{Aug 2024 -- Present}
 \resumeItemListStart
     \resumeItem{Built and maintained scalable full-stack web apps using the MERN stack (MongoDB, Express.js, React.js, Node.js).}
     \resumeItem{Developed secure RESTful APIs with Express.js and PostgreSQL; implemented JWT authentication and role-based access.}
-    \resumeItem{Enhanced frontend performance using React Query, Redux Toolkit, and code-splitting; styled with Material UI and TailwindCSS.}
-    \resumeItem{Implemented Microfrontend architecture to enable modular development, independent deployment, and team-level ownership of features.}
-    \resumeItem{Integrated third-party APIs using REST and gRPC, and added deep linking and SSL Pinning for secure app workflows.}
+    \resumeItem{Enhanced frontend performance using Redux Toolkit and code-splitting; styled with TailwindCSS.}
+    \resumeItem{Integrated third-party APIs using REST and gRPC, and added deep linking for secure app workflows.}
 \resumeItemListEnd
 
 \resumeProjectHeading
 {SaralTech $|$ \footnotesize\emph{Jr. Programmer}}{Jan 2024 -- Jun 2024}
 \resumeItemListStart
-    \resumeItem{Built real-time backend modules using Node.js, Express.js, and WebSockets for dynamic data sync in multi-user apps.}
-    \resumeItem{Implemented secure RESTful APIs with OAuth2.0 and Google Auth integration for authentication workflows.}
-    \resumeItem{Worked on microservices architecture to improve scalability, modularization, and deployment flexibility.}
-    \resumeItem{Integrated third-party APIs and used WebSocket channels (via Mattermost) for backend event communication.}
+    \resumeItem{Primarily worked on creating responsive and user-friendly frontend interfaces for dynamic multi-user applications.}
+    \resumeItem{Implemented Google OAuth2.0 authentication on the frontend for secure and seamless login experiences.}
+    \resumeItem{Integrated RESTful APIs and WebSocket channels (via Mattermost) on the frontend to enable real-time data updates and communication.}
+    \resumeItem{Connected the frontend with AWS S3 for runtime data storage and retrieval, ensuring efficient file access and management.}
 \resumeItemListEnd
 
 
@@ -113,34 +112,35 @@
 \section{Projects}
 \resumeSubHeadingListStart
 
-    \resumeProjectHeading
-{Consent Management}{Apr 2025}
+\resumeProjectHeading
+{\href{https://github.com/DhirajKarangale/FUSE}{\underline{FUSE}}}{Jul 2025}
 \resumeItemListStart
-    \resumeItem{Developed a role-based consent platform aligned with India's DPDP Act, 2023 using ReactJS and Spring Boot.}
+    \resumeItem{Developed a full-stack social media app using React (TypeScript), Node.js, Express, and PostgreSQL.}
+    \resumeItem{Implemented category-based posting where users can post and explore content in predefined interest categories.}
+    \resumeItem{Built a customizable feed system showing only posts relevant to the user’s selected categories.}
+    \resumeItem{Integrated real-time messaging using WebSocket (Socket.IO) with support for instant text and image sharing.}
+    \resumeItem{Used Cloudinary for fast, scalable image uploads in both posts and chat.}
+    \resumeItem{Designed a responsive, mobile-first UI with animations using Tailwind CSS and Framer Motion.}
+    \resumeItem{Optimized performance with lazy loading, infinite scroll, and Redux Toolkit for state management.}
+\resumeItemListEnd
+
+    \resumeProjectHeading
+{\href{https://github.com/DhirajKarangale/ConsentManagement}{\underline{Consent Management}}}{Apr 2025}
+\resumeItemListStart
+\resumeItem{Developed a role-based consent platform aligned with India's DPDP Act, 2023 using ReactJS and Spring Boot.}
     \resumeItem{Designed and implemented RESTful APIs with Spring Boot for secure, scalable backend services.}
-    \resumeItem{Used React Router for dynamic routing and role-based access control across four user types (User, Company, Consent Manager, Government).}
-    \resumeItem{Integrated React Query for efficient data fetching, caching, and synchronization with Spring Boot APIs.}
-    \resumeItem{Optimized component performance using lazy loading, code-splitting, and state management with Redux Toolkit.}
+    \resumeItem{Used React Router for dynamic routing and role-based access control across four types (User, Company, Consent Manager, Government).}
+    \resumeItem{Implemented scalable frontend architecture using Redux Toolkit for centralized state management.}
 \resumeItemListEnd
 
     \resumeProjectHeading
-{Wealthwise}{Oct 2024}
-\resumeItemListStart
-    \resumeItem{Developed a personal finance management app using the MERN stack with secure JWT-based authentication.}
-    \resumeItem{Implemented dynamic charts using Chart.js and Graph.js to visualize user spending patterns and trends.}
-    \resumeItem{Enabled PDF and Excel export using PDFMake and ExcelJS; delivered personalized financial summaries via RESTful APIs.}
-    \resumeItem{Focused on responsive UI, optimized React performance, and modular backend architecture with Express.js and MongoDB.}
-\resumeItemListEnd
-
-    \resumeProjectHeading
-{PocketMoney}{May 2023}
+{\href{https://github.com/DhirajKarangale/PocketMoneyWeb}{\underline{PocketMoney}}}{May 2023}
 \resumeItemListStart
     \resumeItem{Developed a job-matching platform for students to discover part-time and internship opportunities across domains.}
     \resumeItem{Built with React and Firebase for real-time database operations, user authentication, and job listing workflows.}
     \resumeItem{Implemented seeker–provider messaging via SMTP.js and dynamic job filters for role, location, and domain preferences.}
     \resumeItem{Focused on responsive UI/UX with form validations, route-based navigation, and optimized component architecture.}
 \resumeItemListEnd
-
 
 \resumeSubHeadingListEnd
 
