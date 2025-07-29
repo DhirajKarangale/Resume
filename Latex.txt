@@ -113,7 +113,7 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\href{https://github.com/DhirajKarangale/FUSE}{\underline{FUSE}}}{Jul 2025}
+{\href{https://fuse-phi.vercel.app/}{\underline{FUSE}}}{Jul 2025}
 \resumeItemListStart
     \resumeItem{Developed a full-stack social media app using React (TypeScript), Node.js, Express, and PostgreSQL.}
     \resumeItem{Implemented category-based posting where users can post and explore content in predefined interest categories.}
