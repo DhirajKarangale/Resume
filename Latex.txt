@@ -90,19 +90,20 @@
 \resumeProjectHeading
 {Infosys $|$ \footnotesize\emph{Specialist Programmer}}{Aug 2024 -- Present}
 \resumeItemListStart
-    \resumeItem{Built and maintained scalable full-stack web apps using the MERN stack (MongoDB, Express.js, React.js, Node.js).}
-    \resumeItem{Developed secure RESTful APIs with Express.js and PostgreSQL; implemented JWT authentication and role-based access.}
-    \resumeItem{Enhanced frontend performance using Redux Toolkit and code-splitting; styled with TailwindCSS.}
-    \resumeItem{Integrated third-party APIs using REST and gRPC, and added deep linking for secure app workflows.}
+    \resumeItem{Worked on a production-level full-stack project using React.js, Node.js, Express.js, and PostgreSQL.}
+    \resumeItem{Gained hands-on experience in building web applications with the MERN stack and integrating RESTful APIs.}
+    \resumeItem{Implemented authentication flows using JWT and managed sessions efficiently using Redis.}
+    \resumeItem{Explored to features like Progressive Web App (PWA) support and deep linking for better user experience.}
+    \resumeItem{Improved frontend performance using Redux Toolkit, dynamic imports, and optimized styling with TailwindCSS.}
 \resumeItemListEnd
 
 \resumeProjectHeading
 {SaralTech $|$ \footnotesize\emph{Jr. Programmer}}{Jan 2024 -- Jun 2024}
 \resumeItemListStart
     \resumeItem{Primarily worked on creating responsive and user-friendly frontend interfaces for dynamic multi-user applications.}
-    \resumeItem{Implemented Google OAuth2.0 authentication on the frontend for secure and seamless login experiences.}
-    \resumeItem{Integrated RESTful APIs and WebSocket channels (via Mattermost) on the frontend to enable real-time data updates and communication.}
-    \resumeItem{Connected the frontend with AWS S3 for runtime data storage and retrieval, ensuring efficient file access and management.}
+    \resumeItem{Integrated Google OAuth2.0 authentication using Firebase for secure and seamless user login on the frontend.}
+    \resumeItem{Connected RESTful APIs and WebSocket channels (via Mattermost) on the frontend to enable real-time data updates.}
+    \resumeItem{Utilized AWS S3 to load only required assets on demand, improving frontend performance and data efficiency.}
 \resumeItemListEnd
 
 
