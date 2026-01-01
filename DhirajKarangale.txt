@@ -111,7 +111,7 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{Infosys $|$ \footnotesize\emph{Specialist Programmer – Full Stack Developer}}{Aug 2024 -- Present}
+{Infosys $|$ \footnotesize\emph{Specialist Programmer– Software Development Engineer}}{Aug 2024 -- Present}
 \resumeItemListStart
     \resumeItem{Owned feature delivery end-to-end, from requirement analysis and API design to deployment and post-release monitoring, collaborating with cross-functional teams to ensure production stability.}
     \resumeItem{Designed and integrated RESTful APIs with \textbf{99.9\% uptime}, reducing backend response times by \textbf{25\%}.}
@@ -120,7 +120,7 @@
 \resumeItemListEnd
 
 \resumeProjectHeading
-{SaralTech $|$ \footnotesize\emph{Junior Programmer - Frontend Developer}}{Jan 2024 -- Jun 2024}
+{SaralTech $|$ \footnotesize\emph{Software Engineer Intern}}{Jan 2024 -- Jun 2024}
 \resumeItemListStart
     \resumeItem{Built responsive, user-centric interfaces for a multi-user platform, improving UI load performance by \textbf{20\%}.}
     \resumeItem{Integrated Google OAuth 2.0 authentication, increasing successful login rates by \textbf{25\%}.}
