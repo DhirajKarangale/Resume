@@ -1,0 +1,157 @@
+% --- HEADER ---
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks,pdfnewwindow]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+% --- MARGINS & SPACING ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.80in}
+\addtolength{\textheight}{1.75in}
+\setlength{\footskip}{10pt}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\urlstyle{same}
+\pdfgentounicode=1
+
+% --- SECTION FORMATTING ---
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+\titleformat{\subsection}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% --- CUSTOM COMMANDS ---
+\newcommand{\resumeItem}[1]{\item{\normalsize{#1\vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}\textbf{#1} & #2 \\ \textit{\small#3} & \textit{\small #4} \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeProjectHeading}[2]{\item\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}\small\textbf{#1} & #2 \end{tabular*}\vspace{-7pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,label={--}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+% --- DOCUMENT START ---
+\begin{document}
+
+% --- NAME & CONTACT ---
+\vspace*{-15pt}
+\begin{center}
+    {\Huge \scshape Dhiraj Karangale} \\ \vspace{4pt}
+    \small 
+    \underline{+91 7620320595} \hspace{1pt}
+    \faIcon{envelope} \href{mailto:dakarangale02@gmail.com}{\underline{dakarangale02@gmail.com}} \hspace{1pt}
+    \faIcon{linkedin} \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{linkedin/dhiraj-karangale}} \hspace{1pt}
+    \faIcon{github} \href{https://github.com/DhirajKarangale}{\underline{github/DhirajKarangale}} \hspace{1pt}
+    \faIcon{code} \href{https://dhirajkarangale.netlify.app/}{\underline{Portfolio}}
+\end{center}
+
+% --- SUMMARY ---
+\vspace*{-16pt}
+\section{Personal Summary}
+\begin{itemize}
+  \item[]Software Engineer with 1.5+ years of experience building scalable backend services using Java, Spring Boot, and Node.js. Strong foundation in Data Structures and Algorithms, Object-Oriented Programming, and time/space complexity analysis. Experienced in designing high-availability REST APIs, caching systems, and performance optimization. Exposure to LLM integration.
+\end{itemize}
+
+\vspace*{-16pt}
+\section{Highlights}
+\begin{itemize}[leftmargin=0.4in, label={--}, itemsep=0.5pt, topsep=0.5pt]
+    \resumeItem{Built and shipped Android apps with \textbf{160K+ Play Store downloads}, proving real-world adoption.}
+    
+    \resumeItem{%
+    \parbox[t]{\linewidth}{%
+    \setlength{\baselineskip}{1.1\baselineskip}
+    Creator of open-source \href{https://www.npmjs.com/~dhirajkarangale}{\underline{\textbf{npm libraries}}}, including
+    \href{https://github.com/DhirajKarangale/SatyaMark}{\underline{SatyaMark}} (AI content verification) and
+    \href{https://github.com/DhirajKarangale/pdfppt-export}{\underline{PDF \& PPT Export}} (React utility for editable PDF/PPT generation).
+    }}
+ 
+    \resumeItem{\textbf{HackWithInfy Finalist}, selected at a national level among thousands of participants.}
+    
+\end{itemize}
+
+% --- Skills ---
+\vspace{-8pt}
+\section{Skills}
+\begin{itemize}
+    \item[]
+ \textbf{Core:} Java, JavaScript, TypeScript, Data Structures \& Algorithms, OOP, SOLID, System Design\\
+
+    \textbf{Development:} Spring Boot, Node.js, REST APIs, WebSockets, React, Redux Toolkit, LLM Integration, LangChain \\
+
+    \textbf{Databases \& Tools:} PostgreSQL, MongoDB, Redis, Docker, Git, Jenkins
+\end{itemize}
+
+
+% --- EXPERIENCE ---
+\vspace{-15pt}
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{Infosys $|$ \footnotesize\emph{Specialist Programmer – Software Development Engineer}}{Aug 2024 -- Present}
+\resumeItemListStart
+ \resumeItem{Built and maintained production-grade REST APIs for an enterprise platform handling high daily request volumes and business-critical workflows.}
+    \resumeItem{Improved API performance by 25\% through query optimization, indexing strategies, and efficient data handling in PostgreSQL.}
+    \resumeItem{Implemented Redis caching for high-traffic endpoints, reducing latency by 35\% and lowering database load during peak usage.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{SaralTech $|$ \footnotesize\emph{Software Engineer Intern}}{Jan 2024 -- Jun 2024}
+\resumeItemListStart
+    \resumeItem{Developed modular REST APIs and implemented WebSocket-based communication to enable near real-time updates across connected clients.}
+    \resumeItem{Integrated OAuth 2.0 authentication and authorization, increasing successful login rates by 25\% and strengthening access control.}
+    \resumeItem{Optimized asset delivery and resource usage through caching and lazy loading, reducing bandwidth consumption by 35\%.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% --- PROJECTS ---
+\vspace{-10pt}
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\href{https://satyamark.vercel.app/}{\underline{SatyaMark}}}{2025}
+\resumeItemListStart
+ \resumeItem{Architected a modular multi-stage verification system combining LLM-based fact-checking (RAG) and ML-driven image forensics for real-time content analysis.}
+    \resumeItem{Designed a backend orchestration layer in Node.js to route verification jobs across independent AI workers, manage caching, and stream results via Redis Streams and WebSockets.}
+    \resumeItem{Implemented multi-step LLM pipelines (claim extraction → scoring → search → re-evaluation) to reduce low-confidence outputs and improve verification reliability.}
+    \resumeItem{Published a reusable React SDK (\texttt{satyamark-react}) to enable seamless integration of live verification signals into external applications.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://pipeline-x-one.vercel.app/}{\underline{PipelineX}}}{2025}
+\resumeItemListStart
+\resumeItem{Built a full-stack graph-based workflow engine enabling users to design modular automation pipelines.}
+    \resumeItem{Implemented DAG validation with cycle detection to ensure correctness of execution flows and prevent invalid state transitions.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://fuse-phi.vercel.app/}{\underline{FUSE}}}{2025}
+\resumeItemListStart
+  \resumeItem{Developed a real-time social platform using React, Node.js, PostgreSQL, and WebSocket-based bidirectional messaging.}
+    \resumeItem{Designed backend APIs for feed generation and message delivery with optimized queries for high read workloads and efficient client-side state updates.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}
