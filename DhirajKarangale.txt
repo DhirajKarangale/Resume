@@ -61,7 +61,7 @@
     \faIcon{envelope} \href{mailto:dakarangale02@gmail.com}{\underline{dakarangale02@gmail.com}} \hspace{1pt}
     \faIcon{linkedin} \href{https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/}{\underline{linkedin/dhiraj-karangale}} \hspace{1pt}
     \faIcon{github} \href{https://github.com/DhirajKarangale}{\underline{github/DhirajKarangale}} \hspace{1pt}
-    \faIcon{code} \href{https://dhirajkarangale.netlify.app/}{\underline{Portfolio}}
+    \faIcon{code} \href{https://dhirajkarangale.vercel.app}{\underline{Portfolio}}
 \end{center}
 
 % --- SUMMARY ---
