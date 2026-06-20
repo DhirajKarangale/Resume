@@ -64,62 +64,68 @@
     \faIcon{code} \href{https://dhirajkarangale.vercel.app}{\underline{Portfolio}}
 \end{center}
 
-% --- SUMMARY ---
-\vspace*{-16pt}
-\section{Personal Summary}
+% --- Skills ---
+\vspace{-16pt}
+\section{Skills}
 \begin{itemize}
-  \item[]Software Engineer with 1.5+ years of experience building scalable full-stack applications using React, Node.js, Express, and SQL. Strong foundation in Data Structures and Algorithms, object-oriented programming, and system optimization. Experienced in designing high-availability REST APIs, managing database architectures, and integrating modern AI tools.
+    \item[]
+ \textbf{Languages:} JavaScript, TypeScript, Java, SQL\\
+
+    \textbf{Technologies:} React, Redux Toolkit, Tailwind CSS, Shadcn UI, Micro Frontends (Webpack Module Federation), Node.js, Express.js, REST APIs, WebSockets, Jest, Vitest \\
+
+    \textbf{Databases \& Cloud:} MySQL, PostgreSQL, MongoDB, Redis, AWS, GCP, Cloudinary \\
+    
+    \textbf{Tools:} Docker, CI/CD (Jenkins), Git, LangChain, RAG, Data Structures \& Algorithms, System Design
 \end{itemize}
 
+% --- Achievements ---
 \vspace*{-16pt}
-\section{Highlights}
+\section{Achievements}
 \begin{itemize}[leftmargin=0.4in, label={--}, itemsep=0.5pt, topsep=0.5pt]
-    \resumeItem{Built and shipped Android apps with \textbf{160K+ Play Store downloads}, proving real-world adoption.}
+
+\resumeItem{\href{https://leetcode.com/u/DhirajKarangale/}{\underline{\textbf{LeetCode Knight}}} (1959 Contest Rating), ranked in top \textbf{3.2\%} globally with \textbf{990}+ solved problems.}
+
+    \resumeItem{Built and shipped Android apps with \textbf{160K+ Play Store downloads}.}
     
     \resumeItem{%
     \parbox[t]{\linewidth}{%
     \setlength{\baselineskip}{1.1\baselineskip}
-    Creator of open-source \href{https://www.npmjs.com/~dhirajkarangale}{\underline{\textbf{npm libraries}}}, including
+    Published open-source \href{https://www.npmjs.com/~dhirajkarangale}{\underline{\textbf{npm libraries}}} with \textbf{3.1K+} downloads, including
     \href{https://satyamark.vercel.app/}{\underline{SatyaMark}} (AI content verification) and
     \href{https://pdfppt-export.vercel.app/}{\underline{PDF \& PPT Export}} (React utility for editable PDF/PPT generation).
     }}
  
-    \resumeItem{\textbf{HackWithInfy Finalist}, selected at a national level among thousands of participants.}
+    \resumeItem{\textbf{HackWithInfy Finalist}, selected among thousands of participants nationwide.}
     
 \end{itemize}
 
-% --- Skills ---
-\vspace{-8pt}
-\section{Skills}
-\begin{itemize}
-    \item[]
- \textbf{Core:} JavaScript, TypeScript, Data Structures \& Algorithms, OOP, SOLID, System Design\\
-
-    \textbf{Development:} Node.js, Express.js, React, Redux Toolkit, REST APIs, WebSockets, LLM Integration, LangChain \\
-
-    \textbf{Databases \& Tools:} PostgreSQL, MongoDB, Redis, Docker, Git, Jenkins
-\end{itemize}
-
-
 % --- EXPERIENCE ---
-\vspace{-15pt}
+\vspace{-7pt}
 \section{Experience}
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
 {Infosys $|$ \footnotesize\emph{Specialist Programmer – Software Development Engineer}}{Aug 2024 -- Present}
 \resumeItemListStart
-    \resumeItem{Engineered scalable backend services using Node.js and Express to support high-traffic applications, utilizing MySQL for reliable data management.}
-    \resumeItem{Architected a micro-frontend system using React and Webpack Module Federation, enabling independent team deployments and scaling frontend infrastructure.}
-    \resumeItem{Improved system performance by 25\% through MySQL query optimization, indexing strategies, and efficient REST API design.}
+
+\resumeItem{Built a reusable dashboard export library that converts complex React dashboards into fully editable PowerPoint and PDF documents, adopted across 7+ projects by 3 teams and reducing report creation from hours of manual slide preparation to a single export action.}
+
+\resumeItem{Developed an AI-powered PDD generation platform that transforms meeting transcripts and videos into structured Process Design Documents, reducing document creation time from hours or days to under 5 minutes.}
+
+\resumeItem{Architected and developed micro-frontend applications using React and Webpack Module Federation, enabling independent deployments across teams while reducing API response times by 25\% through MySQL query optimization and database indexing strategies.}
+
+\resumeItem{Integrated AWS (S3, Parameter Store) and GCP (Cloud SQL, Redis, Cloud Storage) services for application data, configuration management, and cloud infrastructure integration.}
+
 \resumeItemListEnd
 
 \resumeProjectHeading
 {SaralTech $|$ \footnotesize\emph{Software Engineer Intern}}{Jan 2024 -- Jun 2024}
 \resumeItemListStart
-    \resumeItem{Developed a highly interactive, gamified frontend application using React, focusing on an engaging and responsive user experience.}
-    \resumeItem{Implemented WebSocket-based bidirectional communication to deliver seamless, real-time state updates and live events to connected clients.}
-    \resumeItem{Integrated secure authentication workflows, increasing successful login rates by 25\% and establishing robust session control.}
+
+\resumeItem{Developed React-based user interfaces for a real-time application, implementing WebSocket-based communication for live updates and state synchronization across connected clients.}
+
+\resumeItem{Integrated authentication and session management workflows, improving application security and user access reliability.}
+
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -130,27 +136,43 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\href{https://satyamark.vercel.app/}{\underline{SatyaMark}} $|$ \footnotesize\emph{Node.js, Redis, WebSockets, React, LLMs}}{2025}
+{\href{https://satyamark.vercel.app/}{\underline{SatyaMark}} $|$ \footnotesize\emph{Python, Node.js, React, PostgreSQL, Redis Streams, LangChain}}{2025}
 \resumeItemListStart
- \resumeItem{Architected a modular multi-stage verification system combining LLM-based fact-checking (RAG) and ML-driven image forensics for real-time content analysis.}
-    \resumeItem{Designed a backend orchestration layer in Node.js to route verification jobs across independent AI workers, manage caching, and stream results via Redis Streams and WebSockets.}
-    \resumeItem{Implemented multi-step LLM pipelines (claim extraction $\rightarrow$ scoring $\rightarrow$ search $\rightarrow$ re-evaluation) to reduce low-confidence outputs and improve verification reliability.}
-    \resumeItem{Published a reusable React SDK (\texttt{satyamark-react}) to enable seamless integration of live verification signals into external applications.}
-\resumeItemListEnd
+\resumeItem{Built an open-source multi-modal content verification platform combining LLM-based fact-checking (RAG) and AI image detection for content verification.}
 
-\resumeProjectHeading
-{\href{https://pipeline-x-one.vercel.app/}{\underline{PipelineX}} $|$ \footnotesize\emph{React, Node.js, Graph Algorithms}}{2025}
-\resumeItemListStart
-\resumeItem{Built a full-stack graph-based workflow engine enabling users to design modular automation pipelines.}
-    \resumeItem{Implemented DAG validation with cycle detection to ensure correctness of execution flows and prevent invalid state transitions.}
+\resumeItem{Developed distributed verification pipelines using Python, Node.js, Redis Streams, and WebSockets to orchestrate independent AI workers and stream live results.}
+
+\resumeItem{Implemented multi-stage LLM workflows for claim extraction, evidence retrieval, scoring, and re-evaluation to improve verification reliability.}
+
+\resumeItem{Published a reusable React SDK (\href{https://www.npmjs.com/package/satyamark-react}{\underline{\texttt{satyamark-react}}}) with \textbf{2.2K+ downloads}, enabling integration of live verification signals into third-party applications.}
 \resumeItemListEnd
 
 \resumeProjectHeading
 {\href{https://fuse-phi.vercel.app/}{\underline{FUSE}} $|$ \footnotesize\emph{React, Node.js, PostgreSQL, WebSockets}}{2025}
 \resumeItemListStart
-  \resumeItem{Developed a real-time social platform using React, Node.js, PostgreSQL, and WebSocket-based bidirectional messaging.}
-    \resumeItem{Designed backend APIs for feed generation and message delivery with optimized SQL queries for high read workloads and efficient client-side state updates.}
+\resumeItem{Built a full-stack social platform with category-based content feeds and real-time messaging.}
+
+\resumeItem{Implemented WebSocket-based real-time messaging and PostgreSQL-backed APIs for feed generation, post management, and messaging workflows, enabling instant delivery, and optimized query performance.}
+
 \resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://pipeline-x-one.vercel.app/}{\underline{PipelineX}} $|$ \footnotesize\emph{React, FastAPI, Python, Graph Algorithms}}{2025}
+\resumeItemListStart
+\resumeItem{Built a visual workflow engine using React Flow, enabling drag-and-drop pipeline creation with dynamic node validation and DAG-based cycle detection.}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% --- EDUCATION ---
+\vspace{-15pt}
+\section{Education}
+
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{Sinhgad College of Engineering, Pune $|$ \footnotesize\emph{B.E. Computer Engineering}}{2020 -- 2024}
 
 \resumeSubHeadingListEnd
 
