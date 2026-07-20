@@ -83,14 +83,14 @@
 \section{Achievements}
 \begin{itemize}[leftmargin=0.4in, label={--}, itemsep=0.5pt, topsep=0.5pt]
 
-\resumeItem{\href{https://leetcode.com/u/DhirajKarangale/}{\underline{\textbf{LeetCode Knight}}} (1959 Contest Rating), ranked in top \textbf{3.2\%} globally with \textbf{990}+ solved problems.}
+\resumeItem{\href{https://leetcode.com/u/DhirajKarangale/}{\underline{\textbf{LeetCode Knight}}} (1959 Contest Rating), ranked in top \textbf{3.2\%} globally with \textbf{1K}+ solved problems.}
 
     \resumeItem{Built and shipped Android apps with \textbf{160K+ Play Store downloads}.}
     
     \resumeItem{%
     \parbox[t]{\linewidth}{%
     \setlength{\baselineskip}{1.1\baselineskip}
-    Published open-source \href{https://www.npmjs.com/~dhirajkarangale}{\underline{\textbf{npm libraries}}} with \textbf{3.1K+} downloads, including
+    Published open-source \href{https://www.npmjs.com/~dhirajkarangale}{\underline{\textbf{npm libraries}}} with \textbf{3.3K+} downloads, including
     \href{https://satyamark.vercel.app/}{\underline{SatyaMark}} (AI content verification) and
     \href{https://pdfppt-export.vercel.app/}{\underline{PDF \& PPT Export}} (React utility for editable PDF/PPT generation).
     }}
@@ -139,28 +139,17 @@
 {\href{https://satyamark.vercel.app/}{\underline{SatyaMark}} $|$ \footnotesize\emph{Python, Node.js, React, PostgreSQL, Redis Streams, LangChain}}{2025}
 \resumeItemListStart
 \resumeItem{Built an open-source multi-modal content verification platform combining LLM-based fact-checking (RAG) and AI image detection for content verification.}
-
 \resumeItem{Developed distributed verification pipelines using Python, Node.js, Redis Streams, and WebSockets to orchestrate independent AI workers and stream live results.}
-
 \resumeItem{Implemented multi-stage LLM workflows for claim extraction, evidence retrieval, scoring, and re-evaluation to improve verification reliability.}
-
 \resumeItem{Published a reusable React SDK (\href{https://www.npmjs.com/package/satyamark-react}{\underline{\texttt{satyamark-react}}}) with \textbf{2.2K+ downloads}, enabling integration of live verification signals into third-party applications.}
 \resumeItemListEnd
 
 \resumeProjectHeading
-{\href{https://fuse-phi.vercel.app/}{\underline{FUSE}} $|$ \footnotesize\emph{React, Node.js, PostgreSQL, WebSockets}}{2025}
+{\href{https://pdfppt-export.vercel.app/}{\underline{PDF \& PPT Export}} $|$ \footnotesize\emph{React, TypeScript, PPT, PDF, DOM}}{2025}
 \resumeItemListStart
-\resumeItem{Built a full-stack social platform with category-based content feeds and real-time messaging.}
-
-\resumeItem{Implemented WebSocket-based real-time messaging and PostgreSQL-backed APIs for feed generation, post management, and messaging workflows, enabling instant delivery, and optimized query performance.}
-
-\resumeItemListEnd
-
-\resumeProjectHeading
-{\href{https://pipeline-x-one.vercel.app/}{\underline{PipelineX}} $|$ \footnotesize\emph{React, FastAPI, Python, Graph Algorithms}}{2025}
-\resumeItemListStart
-\resumeItem{Built a visual workflow engine using React Flow, enabling drag-and-drop pipeline creation with dynamic node validation and DAG-based cycle detection.}
-
+\resumeItem{Built an open-source React library to export dashboards as multi-page PDFs and editable PowerPoint (PPTX) presentations.}
+\resumeItem{Implemented DOM-driven PDF pagination and native PowerPoint generation with editable text, charts, and shapes using jsPDF, html-to-image, and pptxgenjs.}
+\resumeItem{Published the pdf-ppt-export-react library with \textbf{1K}+ npm downloads.}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
