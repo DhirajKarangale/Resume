@@ -53,7 +53,7 @@
 \begin{document}
 
 % --- NAME & CONTACT ---
-\vspace*{-15pt}
+\vspace*{-25pt}
 \begin{center}
     {\Huge \scshape Dhiraj Karangale} \\ \vspace{4pt}
     \small 
@@ -69,38 +69,29 @@
 \section{Skills}
 \begin{itemize}
     \item[]
- \textbf{Languages:} JavaScript, TypeScript, Java, SQL\\
-
-    \textbf{Technologies:} React, Redux Toolkit, Tailwind CSS, Shadcn UI, Micro Frontends (Webpack Module Federation), Node.js, Express.js, REST APIs, WebSockets, Jest, Vitest \\
-
+    \textbf{Languages:} JavaScript, TypeScript, Java, Python, SQL \\
+    \textbf{Frameworks \& Libraries:} React, Node.js, Express.js, LangChain, LangGraph, Tailwind CSS \\
     \textbf{Databases \& Cloud:} MySQL, PostgreSQL, MongoDB, Redis, AWS, GCP, Cloudinary \\
-    
-    \textbf{Tools:} Docker, CI/CD (Jenkins), Git, LangChain, RAG, Data Structures \& Algorithms, System Design
+    \textbf{Tools:} Git, Docker, Jenkins (CI/CD), Webpack (Micro Frontends), REST APIs, WebSockets, Jest, Vitest
 \end{itemize}
 
 % --- Achievements ---
 \vspace*{-16pt}
 \section{Achievements}
-\begin{itemize}[leftmargin=0.4in, label={--}, itemsep=0.5pt, topsep=0.5pt]
+\begin{itemize}[leftmargin=0.4in, label={--}, itemsep=2pt, parsep=0pt, topsep=0pt]
 
-\resumeItem{\href{https://leetcode.com/u/DhirajKarangale/}{\underline{\textbf{LeetCode Knight}}} (1959 Contest Rating), ranked in top \textbf{3.2\%} globally with \textbf{1K}+ solved problems.}
+\resumeItem{Demonstrated advanced Data Structures \& Algorithms (DSA) proficiency by achieving \href{https://leetcode.com/u/DhirajKarangale/}{\underline{\textbf{LeetCode Knight}}} (1959 Rating), ranked in the top \textbf{3.2\%} globally with \textbf{1K+} solved problems.}
 
-    \resumeItem{Built and shipped Android apps with \textbf{160K+ Play Store downloads}.}
+\resumeItem{Developed and shipped Android applications, achieving over \textbf{160K+ Play Store downloads}.}
     
-    \resumeItem{%
-    \parbox[t]{\linewidth}{%
-    \setlength{\baselineskip}{1.1\baselineskip}
-    Published open-source \href{https://www.npmjs.com/~dhirajkarangale}{\underline{\textbf{npm libraries}}} with \textbf{3.3K+} downloads, including
-    \href{https://satyamark.vercel.app/}{\underline{SatyaMark}} (AI content verification) and
-    \href{https://pdfppt-export.vercel.app/}{\underline{PDF \& PPT Export}} (React utility for editable PDF/PPT generation).
-    }}
+\resumeItem{Published \href{https://www.npmjs.com/~dhirajkarangale}{\underline{\textbf{npm libraries}}} with \textbf{3.3K+} downloads, including \href{https://satyamark.vercel.app/}{\underline{SatyaMark}} and \href{https://pdfppt-export.vercel.app/}{\underline{PDF \& PPT Export}}.}
  
-    \resumeItem{\textbf{HackWithInfy Finalist}, selected among thousands of participants nationwide.}
+\resumeItem{Selected as a \textbf{HackWithInfy Finalist} from a nationwide pool of thousands of participants.}
     
 \end{itemize}
 
 % --- EXPERIENCE ---
-\vspace{-7pt}
+\vspace{-10pt}
 \section{Experience}
 \resumeSubHeadingListStart
 
@@ -108,13 +99,15 @@
 {Infosys $|$ \footnotesize\emph{Specialist Programmer – Software Development Engineer}}{Aug 2024 -- Present}
 \resumeItemListStart
 
-\resumeItem{Built a reusable dashboard export library that converts complex React dashboards into fully editable PowerPoint and PDF documents, adopted across 7+ projects by 3 teams and reducing report creation from hours of manual slide preparation to a single export action.}
+\resumeItem{Built a React library to export complex dashboards into fully editable PPT and PDF documents, adopted across 7+ projects by 3 teams, reducing manual report creation from hours to one click.}
 
-\resumeItem{Developed an AI-powered PDD generation platform that transforms meeting transcripts and videos into structured Process Design Documents, reducing document creation time from hours or days to under 5 minutes.}
+\resumeItem{Developed an AI-powered platform transforming meeting transcripts and videos into structured Process Design Documents, reducing creation time from hours to under 5 minutes.}
 
-\resumeItem{Architected and developed micro-frontend applications using React and Webpack Module Federation, enabling independent deployments across teams while reducing API response times by 25\% through MySQL query optimization and database indexing strategies.}
+\resumeItem{Led system design for micro-frontend applications using React and Webpack Module Federation.}
 
-\resumeItem{Integrated AWS (S3, Parameter Store) and GCP (Cloud SQL, Redis, Cloud Storage) services for application data, configuration management, and cloud infrastructure integration.}
+\resumeItem{Optimized MySQL queries and implemented database indexing, reducing API response times by 25\%.}
+
+\resumeItem{Integrated AWS (S3, Parameter Store) and GCP (Cloud SQL, Redis, Cloud Storage) for configuration management and data storage.}
 
 \resumeItemListEnd
 
@@ -122,9 +115,9 @@
 {SaralTech $|$ \footnotesize\emph{Software Engineer Intern}}{Jan 2024 -- Jun 2024}
 \resumeItemListStart
 
-\resumeItem{Developed React-based user interfaces for a real-time application, implementing WebSocket-based communication for live updates and state synchronization across connected clients.}
+\resumeItem{Developed React UIs and implemented WebSockets, ensuring real-time state synchronization for 10K+ users.}
 
-\resumeItem{Integrated authentication and session management workflows, improving application security and user access reliability.}
+\resumeItem{Integrated JWT authentication and session management workflows to strictly secure application access.}
 
 \resumeItemListEnd
 
@@ -136,20 +129,31 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{\href{https://satyamark.vercel.app/}{\underline{SatyaMark}} $|$ \footnotesize\emph{Python, Node.js, React, PostgreSQL, Redis Streams, LangChain}}{2025}
+{\href{https://satyamark.vercel.app/}{\underline{SatyaMark}} $|$ \footnotesize\emph{Python, LangGraph, LangChain, React, WebSockets, Node.js, Redis, PostgreSQL}}{2025}
 \resumeItemListStart
-\resumeItem{Built an open-source multi-modal content verification platform combining LLM-based fact-checking (RAG) and AI image detection for content verification.}
+
+\resumeItem{Built an open-source multi-modal content verification platform combining LLM-based fact-checking (RAG) and AI image detection.}
+
 \resumeItem{Developed distributed verification pipelines using Python, Node.js, Redis Streams, and WebSockets to orchestrate independent AI workers and stream live results.}
+
 \resumeItem{Implemented multi-stage LLM workflows for claim extraction, evidence retrieval, scoring, and re-evaluation to improve verification reliability.}
+
 \resumeItem{Published a reusable React SDK (\href{https://www.npmjs.com/package/satyamark-react}{\underline{\texttt{satyamark-react}}}) with \textbf{2.2K+ downloads}, enabling integration of live verification signals into third-party applications.}
+
 \resumeItemListEnd
 
 \resumeProjectHeading
-{\href{https://pdfppt-export.vercel.app/}{\underline{PDF \& PPT Export}} $|$ \footnotesize\emph{React, TypeScript, PPT, PDF, DOM}}{2025}
+{\href{https://github.com/DhirajKarangale/Jobora}{\underline{Jobora}} $|$ \footnotesize\emph{Python, LangGraph, LangChain, React, TypeScript, Node.js, Redis, PostgreSQL}}{2026}
 \resumeItemListStart
-\resumeItem{Built an open-source React library to export dashboards as multi-page PDFs and editable PowerPoint (PPTX) presentations.}
-\resumeItem{Implemented DOM-driven PDF pagination and native PowerPoint generation with editable text, charts, and shapes using jsPDF, html-to-image, and pptxgenjs.}
-\resumeItem{Published the pdf-ppt-export-react library with \textbf{1K}+ npm downloads.}
+
+\resumeItem{Built an Agentic AI job automation platform that discovers jobs across multiple platforms, evaluates candidate fit using LLMs, and automatically applies to eligible roles.}
+
+\resumeItem{Developed browser automation pipelines using Puppeteer to scrape job postings and submit applications.}
+
+\resumeItem{Designed a distributed processing pipeline with Node.js, Python, PostgreSQL, Redis, and LangGraph to clean, structure, and evaluate job data.}
+
+\resumeItem{Built a React-based analytics dashboard to track eligible opportunities, application status, and job insights through interactive visualizations.}
+
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -161,7 +165,7 @@
 \resumeSubHeadingListStart
 
 \resumeProjectHeading
-{Sinhgad College of Engineering, Pune $|$ \footnotesize\emph{B.E. Computer Engineering}}{2020 -- 2024}
+{Sinhgad College of Engineering, Pune $|$ \footnotesize\emph{B.E. Computer Engineering (CGPA: 8.18)}}{2021 -- 2024}
 
 \resumeSubHeadingListEnd
 
