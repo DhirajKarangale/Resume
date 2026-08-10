@@ -58,12 +58,12 @@
 }
 
 % --- SECTION FORMATTING ---
-\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titlespacing*{\section}{0pt}{7pt}{3.5pt}
 \titleformat{\section}{
   \scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule]
 
-\titlespacing*{\subsection}{0pt}{6pt}{2pt}
+\titlespacing*{\subsection}{0pt}{5.5pt}{1.5pt}
 \titleformat{\subsection}{
   \small\bfseries
 }{}{0em}{}
